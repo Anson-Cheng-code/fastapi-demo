@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return convJSON("Hello, World!")
+    return convJSON("Hi!")
 
 @app.get("/health")
 def health():
